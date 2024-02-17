@@ -1,0 +1,341 @@
+a 
+{
+    text-decoration: none;
+    color: #000000;
+}
+.one {
+    display: flex;
+    background-color: gray;
+}
+
+.one img {
+    margin-top: 19px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.one p {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 65px;
+}
+
+.two p {
+    font-size: 20px;
+}
+
+.two input {
+    margin-top: 19px;
+    height: 30px;
+    width: 80px;
+}
+
+.first p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #08605A;
+}
+
+.first .log {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1308px;
+    bottom: 520px;
+}
+
+#heading {
+    font-size: 30px;
+    color: black;
+}
+
+#heading1 {
+    font-size: 30px;
+    color: black;
+}
+
+#heading2 {
+    font-size: 30px;
+    color: black;
+}
+
+#heading3 {
+    font-size: 30px;
+    color: black;
+}
+
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.history .history1 {
+    display: flex;
+    background-color: #CFA064;
+    flex-grow: 1;
+}
+
+.history .history1 .hbooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.book1 {
+    width: 110px;
+    height: 110px;
+}
+
+.hname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.hname .hname1 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cover {
+    width: 450px;
+    height: 400px;
+}
+
+.more {
+    margin-top: 355.5px;
+    margin-left: 757px;
+    font-size: 18px;
+    font-style: oblique;
+    width: 120px;
+    padding: 9px;
+    position: absolute;
+    background-color: #D9BD8B;
+    color: #000000;
+    border-color: #D9BD8B;
+}
+
+.science {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.science .science1 {
+    display: flex;
+    background-color: #F2FAF8;
+    flex-grow: 1;
+}
+
+.science .science1 .sbooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.sbook1 {
+    width: 110px;
+    height: 110px;
+}
+
+.sname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.sname .sname1 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cover2 {
+    width: 450px;
+    height: 400px;
+}
+
+.more2 {
+    margin-top: 355.5px;
+    margin-left: 757px;
+    font-size: 18px;
+    font-style: oblique;
+    width: 120px;
+    padding: 9px;
+    position: absolute;
+    background-color: #FCFFFE;
+    color: #000000;
+    border-color: #FCFFFE;
+}
+
+.comic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comic .comic1 {
+    display: flex;
+    background: linear-gradient(#B969E1,#BBF3E2);
+    flex-grow: 1;
+}
+
+.comic .comic1 .cbooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.cbook1 {
+    width: 110px;
+    height: 110px;
+}
+
+.cname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.cname .cname1 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cover3 {
+    width: 450px;
+    height: 400px;
+}
+
+.more3 {
+    margin-top: 355.5px;
+    margin-left: 757px;
+    font-size: 18px;
+    font-style: oblique;
+    width: 120px;
+    padding: 9px;
+    position: absolute;
+    background-color: #DCD9EE;
+    color: #000000;
+    border-color: #DCD9EE;
+}
+
+.story {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.story .story1 {
+    display: flex;
+    background: linear-gradient(#F32D5E,#F3B14C);
+    flex-grow: 1;
+}
+
+.story .story1 .stbooks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.stbook1 {
+    width: 110px;
+    height: 110px;
+}
+
+.stname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.stname .stname1 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cover4 {
+    width: 450px;
+    height: 400px;
+}
+
+.more4 {
+    margin-top: 355.5px;
+    margin-left: 757px;
+    font-size: 18px;
+    font-style: oblique;
+    width: 120px;
+    padding: 9px;
+    position: absolute;
+    background-color: #F3B14C;
+    color: #000000;
+    border-color: #F3B14C;
+}
+@media only screen and (min-width:1600px)
+{
+    .two p {
+        font-size: 60px;
+        margin-top: 35px;
+    }
+    .one img {
+        height: 75px;
+        width: 75px;
+    }
+    
+    .one p {
+        margin-top: 35px;
+        font-size: 35px;
+    }
+    .two input {
+        font-size: 35px;
+        height: 50px;
+    width: 190px;
+    margin-top: 35px;
+    }
+    .large {
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .first p {
+        
+        font-size: 43px;
+        
+    }
+    .hname1, .sname1, .cname1, .stname1
+    {
+        font-size: 23;
+    }
+    .first .log {
+        width: 50px;
+        height: 50px;
+        left: 1832px;
+        bottom: 900px;
+    }
+}
+    
+    
