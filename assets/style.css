@@ -1,0 +1,199 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(round.jpg);
+    background-size: cover;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 650px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 530px;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+.one {
+    color: darkblue;
+    margin-top: 60px;
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+.two {
+    color: white;
+    margin-top: 55px;
+    margin-left: 650px;
+    font-size: 23px;
+}
+
+.three {
+    color: white;
+    margin-top: 20px;
+    margin-left: 670px;
+    font-size: 18px;
+}
+
+.four {
+    color: white;
+    margin-top: 20px;
+    margin-left: 645px;
+    font-size: 23px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        margin-top: 100px;
+        margin-left: 260px;
+    }
+
+    .book {
+        height: 150px;
+        width: 150px;
+        margin-left: 720px;
+    }
+
+    .one {
+        font-size: 55px;
+        margin-left: 645px;
+        /* margin-top: 120px; */
+        */
+    }
+
+    .two {
+        font-size: 53px;
+        margin-top: 80px;
+        margin-left: 720px;
+    }
+
+    .three {
+        font-size: 38px;
+        margin-left: 760px;
+    }
+
+    .four {
+        font-size: 53px;
+        margin-left: 710px;
+    }
+
+    input {
+        font-size: 46px;
+        /* margin-right: 2000px;
+        margin-left: 600px;
+        padding: 20px;*/
+        border-radius: 25px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    div {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 200px;
+        margin-left: 280px;
+        flex-wrap: wrap;
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin-left: 1180px;
+        margin-top: 40px;
+    }
+
+    .one {
+        font-size: 75px;
+        margin-left: 1080px;
+        margin-top: 100px;
+    }
+
+    .two {
+        font-size: 58px;
+        margin-top: 80px;
+        margin-left: 1180px;
+    }
+
+    .three {
+        font-size: 43px;
+        margin-left: 1220px;
+    }
+
+    .four {
+        font-size: 58px;
+        margin-left: 1170px;
+    }
+
+    input {
+        font-size: 51px;
+        margin-left: 965px;
+        margin-right: 850px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 3000px) {
+    .container {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 400px;
+        margin-left: 1200px;
+        flex-wrap: wrap;
+    }
+
+    .book {
+        width: 220px;
+        height: 220px;
+        margin-left: 1000px;
+        margin-top: 40px;
+    }
+
+    .one {
+        font-size: 120px;
+        margin-left: 780px;
+        margin-top: 120px;
+    }
+
+    .two {
+        font-size: 93px;
+        margin-top: 150px;
+        margin-left: 950px;
+    }
+
+    .three {
+        font-size: 78px;
+        margin-left: 1020px;
+    }
+
+    .four {
+        font-size: 93px;
+        margin-left: 930px;
+    }
+
+    input {
+        font-size: 86px;
+        margin-right: 2000px;
+        margin-left: 600px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+}
